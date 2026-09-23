@@ -1,0 +1,7 @@
+git init= creates a new git repo in ur project folder
+git remote add origin<url>= connects your l0cak repositierires to github repo
+git status = shows the current status of ur files 
+git add= stages all changes status if ur files 
+git commit -m "messages"= saves ur chnages with a messages 
+git push= uploads ur commits to github 
+git pull= downloads the latest changes from github 
