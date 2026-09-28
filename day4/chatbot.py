@@ -10,6 +10,7 @@ while True:
         break
     msgs.append(
         {
+            
             "role" : "user" ,
             "content" : question
         }
@@ -27,4 +28,6 @@ while True:
     print("AI:",response["message"]["content"])
 print("--------chat history------\n")
 for msg in msgs:
-      print(msg["role"], ":", msg["content"])
+    if msg["role"] == "system":
+        break
+    print(msg["role"], ":", msg["content"])
